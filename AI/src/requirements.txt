@@ -1,0 +1,15 @@
+fpdf
+pdfplumber
+pypdf
+sentence-transformers==3.4.1
+torch
+transformers==4.49.0
+fastapi==0.110.2
+uvicorn[standard]==0.29.0 
+python-multipart==0.0.9
+python-dotenv==1.0.1
+pydantic-settings==2.2.1
+aiofiles==24.1.0
+langchain==0.2.17
+PyMuPDF==1.24.3
+langchain-community==0.3.18 
