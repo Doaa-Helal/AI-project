@@ -2,8 +2,7 @@
 
 An end-to-end solution for AI-powered document summarization, processing PDFs and text files using advanced chunking techniques and fine-tuned BART models.
 
-![SmartSummarizeAI](../AI-project/client/src/app/favicon.ico)
-![SmartSummarizeAI](AI-project/client/src/app/favicon.ico)
+![SmartSummarizeAI](https://raw.githubusercontent.com/Doaa-Helal/AI-project/refs/heads/main/client/src/app/favicon.ico?token=GHSAT0AAAAAAC6G4LJQZAP7EXVTIQGVM6PI2AOSASA)
 
 ## 🌟 Project Overview
 
