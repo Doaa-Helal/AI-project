@@ -2,7 +2,7 @@
 
 An end-to-end solution for AI-powered document summarization, processing PDFs and text files using advanced chunking techniques and fine-tuned BART models.
 
-![SmartSummarizeAI](https://i.postimg.cc/yYXFsLwp/image.png)
+<img src="https://i.postimg.cc/yYXFsLwp/image.png" width="250" alt="SmartSummarizeAI" />
 
 ## 🌟 Project Overview
 
