@@ -32,8 +32,8 @@ AI-project/
 
 The project consists of two components that need to be set up separately. Please follow the instructions in their respective README files:
 
-- [AI Backend Setup](./ai/README.md)
-- [Client Frontend Setup](./client/README.md)
+- [AI Backend Setup](https://github.com/Doaa-Helal/AI-project/blob/main/AI/README.md)
+- [Client Frontend Setup](https://github.com/Doaa-Helal/AI-project/blob/main/client/README.md)
 
 ## 🔗 Live Demo
 
