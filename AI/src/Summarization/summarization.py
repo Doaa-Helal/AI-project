@@ -39,7 +39,7 @@ class summarization:
 
         return chunks
 
-    def get_summarization(self,chunks,min_chunk_len=30,max_len=130,min_len=30):
+    def get_summarization(self,chunks,min_chunk_len=30,max_len=6000,min_len=30):
         summarizations=[]
         summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
         if  isinstance(chunks,str):
@@ -103,7 +103,7 @@ class summarization:
 
         cleaned_chunks=[self.clean_text(chunk) for chunk in all_data]
         chunks=self.semantic_chunking(cleaned_chunks)
-        summarization=self.get_summarization(cleaned_chunks,20,150,20)
+        summarization=self.get_summarization(chunks,20,150,20)
         final_text="/n/n".join(summarization)
         
         self.generate_txt(final_text,output_path)
