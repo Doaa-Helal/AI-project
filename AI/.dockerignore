@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# macOS / Windows system files
+.DS_Store
+Thumbs.db
+
+# VSCode settings
+.vscode/
+
+# Git
+.git/
+.gitignore
+
+# Logs and output
+*.log
+
+# Docker files themselves (optional)
+Dockerfile
+docker-compose.yml
+
+# Assets you don't want in the container (if only needed for local dev)
+assets/
+
+# Python-specific
+*.egg-info/
+build/
+dist/
+
+# Ignore README if not needed in container
+README.md
