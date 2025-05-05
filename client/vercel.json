@@ -1,0 +1,16 @@
+{
+    "builds": [
+      {
+        "src": "package.json",
+        "use": "@vercel/next",
+        "config": {
+"vercel-build": "npm install --force && npm install tailwindcss postcss autoprefixer && next build",          "buildCommand": "npx next build"
+        }
+      }
+    ],
+    "build": {
+      "env": {
+        "NEXT_TELEMETRY_DISABLED": "1"
+      }
+    }
+  }
